@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洁琼的小丸子博客</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* 添加一些额外样式确保照片显示正常 */
+        .about-image img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border: 5px solid white;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="nav-container">
+            <h1 class="logo"><i class="fas fa-star"></i> 洁琼的小丸子博客</h1>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#blog">学习笔记</a></li>
+                <li><a href="#hobbies">我的爱好</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="cherry-blossom"></div>
+            <h2>欢迎来到我的小丸子空间</h2>
+            <p>分享数据科学学习之路 & 记录生活点滴</p>
+            <button class="cta-button">探索更多</button>
+        </div>
+    </section>
+
+    <!-- 关于部分 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2><i class="fas fa-user"></i> 关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>你好！我是<span class="highlight">李洁琼</span>，一名数据科学与大数据技术专业的大三学生。</p>
+                    <p>我热爱探索数据背后的故事，喜欢用代码解决实际问题。目前正在深入学习机器学习、数据分析和前端开发。</p>
+                    <p>我相信"数据是新时代的石油"，希望通过学习能够从数据中提取有价值的信息，解决现实问题。</p>
+                    <div class="personal-info">
+                        <p><i class="fas fa-graduation-cap"></i> <strong>专业：</strong> 数据科学与大数据技术</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>所在地：</strong> 中国</p>
+                        <p><i class="fas fa-heart"></i> <strong>兴趣：</strong> 数据挖掘，机器学习，前端开发</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <!-- 将下面的src替换为你的照片路径 -->
+                    <img src="C:\Users\xx\Pictures\微信图片_20250914203017.jpg" alt="李洁琼的照片">
+                    <div class="maruko-ribbon"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 博客文章部分 -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2><i class="fas fa-book"></i> 学习笔记</h2>
+            <div class="blog-posts">
+                <article class="post-card">
+                    <div class="maruko-corner"></div>
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Python数据分析">
+                    <div class="post-content">
+                        <h3>Python数据分析入门</h3>
+                        <p class="post-date">2025年9月14日</p>
+                        <p>分享使用Pandas和NumPy进行数据清洗和分析的基础技巧，以及我在课程项目中遇到的挑战和解决方案...</p>
+                        <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="post-card">
+                    <div class="maruko-corner"></div>
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="大数据技术">
+                    <div class="post-content">
+                        <h3>大数据处理技术探索</h3>
+                        <p class="post-date">2025年8月20日</p>
+                        <p>记录学习Hadoop和Spark框架的心得体会，以及如何应对海量数据处理的挑战...</p>
+                        <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="post-card">
+                    <div class="maruko-corner"></div>
+                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="机器学习">
+                    <div class="post-content">
+                        <h3>机器学习项目实战</h3>
+                        <p class="post-date">2025年7月15日</p>
+                        <p>从数据预处理到模型训练，详细记录我的第一个完整机器学习项目开发过程...</p>
+                        <a href="#" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 爱好部分 -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <h2><i class="fas fa-heart"></i> 我的爱好</h2>
+            <div class="hobbies-container">
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="fas fa-table-tennis"></i>
+                    </div>
+                    <h3>羽毛球</h3>
+                    <p>每周打两次羽毛球，喜欢在运动中释放压力，保持身心健康。</p>
+                </div>
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>音乐</h3>
+                    <p>喜欢听轻音乐和流行歌曲，音乐是我编程和学习时的最佳伴侣。</p>
+                </div>
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>编程</h3>
+                    <p>享受解决编程难题的过程，喜欢参加在线编程挑战和黑客马拉松。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系部分 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2><i class="fas fa-envelope"></i> 联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>获取联系</h3>
+                    <p><i class="fas fa-envelope"></i> <strong>邮箱：</strong> ljq041213@qq.com</p>
+                    <p><i class="fas fa-phone"></i> <strong>电话：</strong> 18073804845</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>地址：</strong> 中国</p>
+                    
+                    <div class="social-links">
+                        <h3>关注我</h3>
+                        <a href="#" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="social-btn"><i class="fab fa-weibo"></i> 微博</a>
+                        <a href="#" class="social-btn"><i class="fab fa-weixin"></i> 微信</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3>发送消息</h3>
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">留言</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit"><i class="fas fa-paper-plane"></i> 发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 洁琼的小丸子博客. 所有权利保留.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-weixin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
